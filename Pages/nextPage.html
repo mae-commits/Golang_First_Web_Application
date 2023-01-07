@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<body>
+    <h1>データページ</h1>
+    <a href="/">前のページへ戻る</a>
+    <ul>
+        <!-- Read the content of the list -->
+        {{range .}}
+        <li>
+            <h4>{{ .Label}}の気温</h4>
+            <!-- Read the content of the list "temperatureData.Data" -->
+            {{range .Data}}
+            <p style="display: inline;">{{ . }}度</p>
+            {{end}}
+        </li>
+        {{end}}
+    </ul>
+</body>
