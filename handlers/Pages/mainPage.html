@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/mainPage.css">
+</head>
+<body>
+    <!-- 遷移先のページへ飛ぶようにしている -->
+    <a href="/nextPage">次のページへ</a>
+    <h1 style="text-align:center">ログインページ</h1>
+    <form class="example">
+    <div class="example">
+        <label for="namelabel">名前</label>
+        <input type="text" name="name" id="namelabel" placeholder="例）鈴木　太郎">
+    </div>
+    <div class="example">
+        <label for="maillabel">メールアドレス</label>
+        <input class="inputs" type="email" name="email" id="maillabel" placeholder="○○○.jp">
+    </div>
+    <div class="example">
+        <input type="submit" value="送信する">
+    </div>  
+    </form>
+<form>
+<label for="redlabel">
+   <input type="radio" name="color" value="red" id="redlabel">
+   赤
+ </label>
+ <label for="bluelabel">
+   <input type="radio" name="color" value="blue" id="bluelabel">
+   青
+ </label>
+ <label for="yellowlabel">
+   <input type="radio" name="color" value="yellow" id="yellowlabel">
+   黄
+ </label>
+</form>
+</body>
+</html>

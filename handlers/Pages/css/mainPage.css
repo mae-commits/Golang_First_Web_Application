@@ -1,0 +1,16 @@
+@charset "UTF-8";
+ 
+form {
+     width: 250px;
+     border: solid 1px black;
+     text-align: center;
+ }
+
+label {
+    display: block;
+    text-align: center;
+   }
+
+.example{
+    text-align: center;
+}
